@@ -258,17 +258,7 @@ static Key key[] = {
 	{ XK_KP_Right,      XK_ANY_MOD,     "\033Ov",       +1,    0},
 	{ XK_KP_Right,      XK_ANY_MOD,     "\033[C",        0,   -1},
 	{ XK_KP_Right,      XK_ANY_MOD,     "\033OC",        0,   +1},
-<<<<<<<
 	{ XK_KP_Prior,      ShiftMask,      "\033[5;2~",     0,    0},
-=======
-	{ XK_KP_Delete,     ShiftMask,      "\033[2K",      -1,    0,    0},
-	{ XK_KP_Delete,     ShiftMask,      "\033[3;2~",    +1,    0,    0},
-	{ XK_KP_Delete,     XK_ANY_MOD,     "\033[P",       -1,    0,    0},
-	{ XK_KP_Delete,     XK_ANY_MOD,     "\177",         +1,    0,    0},
-	{ XK_KP_Multiply,   XK_ANY_MOD,     "\033Oj",       +2,    0,    0},
-	{ XK_KP_Add,        XK_ANY_MOD,     "\033Ok",       +2,    0,    0},
-	{ XK_KP_Enter,      XK_ANY_MOD,     "\033OM",       +2,    0,    0},
->>>>>>>
 	{ XK_KP_Prior,      XK_ANY_MOD,     "\033[5~",       0,    0},
 	{ XK_KP_Begin,      XK_ANY_MOD,     "\033[E",        0,    0},
 	{ XK_KP_End,        ControlMask,    "\033[J",       -1,    0},
@@ -323,18 +313,8 @@ static Key key[] = {
 	{ XK_Down,    ShiftMask|ControlMask,"\033[1;6B",     0,    0},
 	{ XK_Down,     ControlMask|Mod1Mask,"\033[1;7B",     0,    0},
 	{ XK_Down,ShiftMask|ControlMask|Mod1Mask,"\033[1;8B",0,    0},
-<<<<<<<
 	{ XK_Down,          XK_ANY_MOD,     "\033[B",        0,   -1},
 	{ XK_Down,          XK_ANY_MOD,     "\033OB",        0,   +1},
-=======
-	{ XK_Delete,        ShiftMask,      "\033[2K",      -1,    0,    0},
-	{ XK_Delete,        ShiftMask,      "\033[3;2~",    +1,    0,    0},
-	{ XK_Delete,        XK_ANY_MOD,     "\033[P",       -1,    0,    0},
-	{ XK_Delete,        XK_ANY_MOD,     "\177",         +1,    0,    0},
-	{ XK_BackSpace,     Mod1Mask,       "\033\177",      0,    0,    0},
-	{ XK_Home,          ShiftMask,      "\033[2J",       0,   -1,    0},
-	{ XK_Home,          ShiftMask,      "\033[1;2H",     0,   +1,    0},
->>>>>>>
 	{ XK_Left,          ShiftMask,      "\033[1;2D",     0,    0},
 	{ XK_Left,          Mod1Mask,       "\033[1;3D",     0,    0},
 	{ XK_Left,       ShiftMask|Mod1Mask,"\033[1;4D",     0,    0},
